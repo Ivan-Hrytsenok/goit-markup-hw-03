@@ -9,6 +9,20 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+}
 body {
   background-color: var(--backgraund-color-page);
   color: var(--basic-text-color);
@@ -16,6 +30,13 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* logo */
@@ -68,6 +89,8 @@ body {
 
 /* hero */
 .hero {
+  text-align: center;
+
   background-color: var(--hero-footer-background-color);
 }
 
@@ -75,10 +98,13 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: var(--white-color);
+
+  padding-top: 200px;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -87,9 +113,16 @@ body {
   font-size: 16px;
   line-height: 1.89;
   letter-spacing: 0.06em;
+
   color: var(--white-color);
   background-color: var(--accent-text-color);
   cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  display: inline-block;
+  min-width: 216px;
+  margin-bottom: 200px;
 }
 
 .hero-btn:active {
@@ -97,22 +130,43 @@ body {
 }
 
 /* section */
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: var(--title-text-color);
+
+  padding-bottom: 50px;
+}
+.team {
+  padding-top: 95px;
 }
 
 /* benefits */
+
+.benefits {
+  padding-bottom: 95px;
+  padding-top: 95px;
+}
+
 .benefits-titles {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
   color: var(--title-text-color);
+
+  padding-bottom: 10px;
+}
+
+/* speciality */
+.speciality {
+  padding-bottom: 95px;
 }
 
 /* specialists */
@@ -121,16 +175,28 @@ body {
   font-size: 16px;
   line-height: 1.19;
   color: var(--title-text-color);
+  padding-bottom: 10px;
 }
 
 .specialist-profession {
   font-size: 16px;
   line-height: 1.19;
 }
+.specialists-list {
+  padding-bottom: 95px;
+}
+.photo {
+  padding-bottom: 30px;
+}
 
 /* footer */
 .footer {
   background-color: var(--hero-footer-background-color);
+}
+
+.container-logo-footer {
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 .logo-second-word {
@@ -141,13 +207,23 @@ body {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+
   color: var(--white-color);
+
+  display: inline-block;
+  padding-bottom: 10px;
 }
 
 .contacts-footer-list a {
   font-size: 14px;
   line-height: 1.71;
   color: var(--footer-contacts-color);
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.contacts-footer-list:last-child {
+  padding-bottom: 60px;
 }
 
 /* porfolio page */
