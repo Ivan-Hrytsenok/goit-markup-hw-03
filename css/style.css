@@ -2,7 +2,7 @@
   --title-text-color: #212121;
   --basic-text-color: #757575;
   --accent-text-color: #2196f3;
-  --backgraund-color-page: #e5e5e5;
+  --backgraund-color-page: #f5f5f5;
   --logo-color: #000000;
   --hero-footer-background-color: #2f303a;
   --white-color: #ffffff;
@@ -189,8 +189,8 @@ body {
 /* benefits */
 
 .benefits {
-  padding-bottom: 95px;
-  padding-top: 95px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .benefits-list {
@@ -198,7 +198,7 @@ body {
 }
 
 .benefits-list :not(:last-child) {
-  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .benefits-titles {
@@ -313,8 +313,8 @@ body {
 .nav-btn {
   display: flex;
   justify-content: center;
-  padding-top: 95px;
-  padding-bottom: 35px;
+  padding-top: 94px;
+  padding-bottom: 34px;
 }
 
 .nav-btn .item:not(:last-child) {
@@ -344,12 +344,7 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 95px;
-}
-
-.portfolio-element img {
-  display: block;
-  padding-bottom: 20px;
+  padding-bottom: 94px;
 }
 
 .portfolio-element {
@@ -357,6 +352,11 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
+}
+
+.portfolio-element img {
+  display: block;
+  padding-bottom: 20px;
 }
 
 .portfolio-element:nth-child(3n) {
@@ -375,12 +375,20 @@ body {
 
   color: var(--title-text-color);
 
-  padding-bottom: 5px;
+  padding-bottom: 4px;
 }
 
 .portfolio-text {
   font-size: 14px;
   line-height: 1.71;
+
+  padding-bottom: 20px;
+}
+
+.portfolio-text,
+.portfolio-titles {
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 /* hidden titles */
