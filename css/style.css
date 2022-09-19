@@ -247,6 +247,7 @@ body {
 .specialists-list {
   padding-bottom: 94px;
   display: flex;
+  justify-content: center;
 }
 .specialists-list .item:not(:last-child) {
   margin-right: 30px;
