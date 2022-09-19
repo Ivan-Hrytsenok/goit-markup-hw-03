@@ -205,12 +205,6 @@ body {
 
   padding-bottom: 50px;
 }
-.team {
-  padding-top: 94px;
-}
-.team-section {
-  background-color: var(--backgraund-color-page);
-}
 .speciality-list {
   display: flex;
 }
@@ -223,6 +217,12 @@ body {
 
 /* specialists */
 
+.team-section {
+  background-color: var(--backgraund-color-page);
+}
+.team {
+  padding-top: 94px;
+}
 .specialists-title {
   font-weight: 500;
   font-size: 16px;
@@ -233,32 +233,31 @@ body {
   padding-bottom: 10px;
   text-align: center;
 }
-.specialist-profession {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-
-  padding-bottom: 30px;
-}
 .specialists-list {
   padding-bottom: 94px;
   display: flex;
   justify-content: center;
 }
-.specialists-list .item:not(:last-child) {
+.specialists-list .specialist-card:not(:last-child) {
   margin-right: 30px;
 }
-.item {
+.specialist-card {
   background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .specialists-list img {
   display: block;
 }
 .photo {
+  padding-bottom: 30px;
+}
+.specialist-profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
   padding-bottom: 30px;
 }
 
@@ -353,7 +352,6 @@ body {
 
 .portfolio-element img {
   display: block;
-  padding-bottom: 20px;
   max-width: 100%;
   height: 294px;
 }
@@ -369,6 +367,10 @@ body {
 .discription {
   border: 1px solid #eeeeee;
   border-top: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .portfolio-titles {
@@ -385,14 +387,6 @@ body {
 .portfolio-text {
   font-size: 14px;
   line-height: 1.71;
-
-  padding-bottom: 20px;
-}
-
-.portfolio-text,
-.portfolio-titles {
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 /* hidden titles */
