@@ -229,7 +229,6 @@ body {
   line-height: 1.19;
 
   color: var(--title-text-color);
-
   padding-bottom: 10px;
   text-align: center;
 }
@@ -250,15 +249,16 @@ body {
 .specialists-list img {
   display: block;
 }
-.photo {
-  padding-bottom: 30px;
-}
 .specialist-profession {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-
+}
+.item-wrapper {
+  padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 /* footer */
